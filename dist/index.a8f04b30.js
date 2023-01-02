@@ -593,7 +593,7 @@ class EffectCanvas {
     }
     onWindowResize() {
         init();
-        this.camera.aspect = this.viewport.aspect;
+        this.camera.aspect = this.viewport.aspectRatio;
         this.camera.updateProjectionMatrix();
         this.renderer.setSize(this.viewport.width, this.viewport.height);
     }

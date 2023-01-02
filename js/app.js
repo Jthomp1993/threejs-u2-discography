@@ -62,7 +62,7 @@ class EffectCanvas {
 
     onWindowResize(){
         init();
-        this.camera.aspect = this.viewport.aspect;
+        this.camera.aspect = this.viewport.aspectRatio;
         this.camera.updateProjectionMatrix();
         this.renderer.setSize(this.viewport.width, this.viewport.height);
     }
@@ -131,7 +131,6 @@ class MeshItem{
         this.uniforms.uOffset.value.set(0.0, -(target - current) * 0.0003);
     }
 }
-
 
 init();
 new EffectCanvas();
