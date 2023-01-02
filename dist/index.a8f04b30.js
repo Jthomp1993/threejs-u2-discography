@@ -661,7 +661,7 @@ class MeshItem {
 init();
 new EffectCanvas();
 
-},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./shaders/vertexShader.glsl":"lv276","./shaders/fragmentShader.glsl":"2S4X0"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","./shaders/vertexShader.glsl":"lv276","./shaders/fragmentShader.glsl":"2S4X0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2022 Three.js Authors
