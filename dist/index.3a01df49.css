@@ -23,10 +23,6 @@ main {
   position: fixed;
 }
 
-.heading h1 {
-  color: #fff;
-}
-
 .scrollable {
   width: 100%;
   will-change: transform;

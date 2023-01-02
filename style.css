@@ -23,10 +23,6 @@ main {
     width: 100%;
 }
 
-.heading h1 {
-    color: white;
-}
-
 .scrollable {
     position: absolute;
     width: 100%;
